@@ -116,3 +116,15 @@ button:hover {
 .dropdown-menu a:hover {
     background-color: #ddd;
 }
+
+/********************************************************************/
+
+.container {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.itemCarrusel {
+    border: 1px solid black;
+}

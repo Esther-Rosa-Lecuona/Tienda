@@ -16,7 +16,13 @@
                     <button><a href="\">Home</a></button>
                 </li>
                 <li>
+                    <button><a href="\noticias">Noticias</a></button> 
+                </li>
+                <li>
                     <button><a href="\categorias"> Categorias </a></button>
+                </li>
+                <li>
+                    <button><a href="\nosotros"> Sobre nosotros</a></button>
                 </li>
                 <li>
                     <button>
@@ -54,5 +60,14 @@
                 @endguest
             </ul>
         </nav>
+        <div class="container">
+            <div class="itemCarrusel">
+                <div class="tarjetaCarrusel">A</div>
+                <div class="flechasCarrusel">
+                    <i>Izquierda</i>
+                    <i>Derecha</i>
+                </div>
+            </div> 
+        </div> 
     </body>
 </html>

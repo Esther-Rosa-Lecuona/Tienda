@@ -1,4 +1,25 @@
 
+  /*COLORES BASE
+  #FFFFFF
+  #230799
+  #990723*/
+
+  /* - DEGRADADO */
+  /*-> Del blanco al azul hasta el rojo */
+  /*(#ffffff, #d6d0ef, #afa2dd, #8976ca, #624ab6, #6b38a3, #70238e, #720079, #880063, #95004d, #9a0037, #990723); */
+  
+  /* - Highlight Palette (Azul)
+  #230799
+  #9C88BB
+  #FFFADE
+  #E8D5B5 */ 
+
+  /* - Friend palette (Rojo)
+  ##990723
+  ##FF7E7C
+  #68B4DC
+  #004E71 */
+
   /* Estilos generales */
 body {
     margin: 0;
@@ -9,7 +30,7 @@ body {
 /* Estilos para la barra de navegación */
 
 nav {
-    background-color: #f7a3fa;
+    background-color: #F7A3FA;
     color: #dea3fa;
     display: flex;
     justify-content: space-between;
@@ -32,7 +53,7 @@ nav ul li button {
 
 nav ul li button a {
   text-decoration: none;
-  color: #9e65f8;
+  color: #7C0A86;
   font-size: 16px;
 }
 
@@ -76,7 +97,7 @@ button:hover {
 .cart-items {
     background-color: #eba3fa;
     border-radius: 50%;
-    color: #9e65f8;
+    color: #7C0A86;
     display: inline-block;
     font-size: 12px;
     height: 18px;
@@ -126,5 +147,10 @@ button:hover {
 }
 
 .itemCarrusel {
-    border: 1px solid black;
+    border: 1px solid #f29ac4;
+    height: 100%;
+}
+
+.tarjetaCarrusel {
+    background-color: #ed928f;
 }
